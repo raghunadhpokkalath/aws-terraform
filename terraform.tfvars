@@ -32,3 +32,5 @@ igw        = "devopsacademy-iac-igw"
 nat_gw     = "devopsacademy-iac-nat"
 rt_public  = "devopsacademy-iac-rt-public"
 rt_private = "devopsacademy-iac-rt-private"
+
+home_ipaddress = "58.96.95.89/32"

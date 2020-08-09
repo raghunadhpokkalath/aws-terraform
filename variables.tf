@@ -38,3 +38,20 @@ variable "rt_public" {
 variable "rt_private" {
   type = string
 }
+
+variable "home_ipaddress" {
+  type        = string
+  description = "Home ip to restrict ssh access"
+}
+
+variable "instance_type" {
+  type        = string
+  description = "ec2 instance type"
+  default     = "t2.nano"
+}
+
+variable "ami_id" {
+  type        = string
+  description = "ec2 instance ami"
+  default     = "ami-0a58e22c727337c51"
+}
